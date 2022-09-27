@@ -5,8 +5,7 @@ import { EstudiosPage } from "./pages/EstudiosPage";
 import { ExperienciaPage } from "./pages/ExperienciaPage";
 import { PortafolioPage } from "./pages/PortafolioPage";
 import { ContactoPage } from "./pages/ContactoPage";
-import Footer from "./components/Footer";
-import { MyCard } from "./components/MyCard";
+
 
 function App() {
   return (
@@ -29,8 +28,7 @@ function App() {
       </section>
       <section id="contacto">
         <ContactoPage />
-      </section>
-      <Footer />
+      </section>      
     </>
   );
 }
