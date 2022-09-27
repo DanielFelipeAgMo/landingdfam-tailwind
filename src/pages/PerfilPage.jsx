@@ -18,17 +18,22 @@ export const PerfilPage = () => {
         <div className="sm:w-7/12 pl-0 p-5">
           <div className="space-y-2">
             <div className="space-y-4">
-              <h2 className="text-2xl font-semibold text-cyan-900">
-                Daniel Felipe Agudelo Molina.
+              <h1 className="text-6xl font-bold text-cyan-900">
+                !Hola¡...                
+              </h1>
+              <h2 className='text-5xl font-bold text-cyan-800'>
+              ...soy Daniel Felipe Agudelo Molina.
               </h2>
-              <p className="text-gray-600">
-                Laborum saepe laudantium in, voluptates ex placeat quo harum
-                aliquam totam, doloribus eum impedit atque! Temporibus...
+              <p className="text-4xl  text-gray-600 font-semibold">
+                Me alegra mucho que estés de visita por mi sitio web.
+
+                Desde que inicié mi formación profesional he venido trabajando en un proyecto empresa el cuál ha ido tomando forma de acuerdo al avance de mis habilidades y conocimientos, por medio del cuál pretendo crear un socio tecnológico en soluciones informáticas para pequeñas y medianas empresas igualmente para personas naturales emprendedores.
+              </p>
+              <p className="text-4xl  text-gray-600 font-semibold">
+                Por eso te invito a que conozcas un poco de mi y de las cosas que puedo hacer.
               </p>
             </div>
-            <a href="www.tailus.io" className="block w-max text-cyan-600">
-              Read more
-            </a>
+           
           </div>
         </div>
       </div>

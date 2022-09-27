@@ -1,22 +1,47 @@
 import React from 'react'
 
-export const ExperienciaPage = (url, titulo, descripcion, url_preview, url_github) => {
+export const ExperienciaPage = () => {
   return (
-    <> <div className="flex justify-center">
-    <div className="rounded-lg shadow-lg bg-white max-w-sm">
-      <a href={url}>
-        <img className="rounded-t-lg" src={url} alt="" />
-      </a>
+    <>  
+
+    <div className="flex justify-center">
+    <div className="rounded-lg shadow-lg bg-white max-w-sm">      
       <div className="p-6">
-        <h5 className="text-gray-900 text-xl font-medium mb-2">{titulo}</h5>
-        <p className="text-gray-700 text-base mb-4"> {descripcion}        
-        </p>
-        <div className="flex items-center justify-center space-x-4" role="group">
-        <button href={url_preview} type="button" className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Vista Previa</button>
-        <button href={url_github}type="button" className=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Código</button>
-      </div>
+        <h5 className="text-gray-900 text-xl font-medium mb-2">Analista Desarrollo web -FUCN 😎</h5>
+        <p className="text-gray-700 text-base mb-4"> Análisis y desarrollo de sistemas de información a la medida de la empresa, gestión de sistemas de formación LMS      
+        </p>        
     </div>
     </div>
-  </div></>
+  </div>
+
+  <div className="flex justify-center">
+    <div className="rounded-lg shadow-lg bg-white max-w-sm">      
+      <div className="p-6">
+        <h5 className="text-gray-900 text-xl font-medium mb-2">Ingeniero de Apoyo virtual -TDEA 🤓</h5>
+        <p className="text-gray-700 text-base mb-4"> Apoyo y acompañamiento a estudiantes y docentes en el área de virtualidad      
+        </p>        
+    </div>
+    </div>
+  </div>
+  <div className="flex justify-center">
+    <div className="rounded-lg shadow-lg bg-white max-w-sm">      
+      <div className="p-6">
+        <h5 className="text-gray-900 text-xl font-medium mb-2">Docente de cátedra -TDEA 🧐</h5>
+      descripcion: "Enseñanza de las áreas a las ciencias computacionales para los programas de ingeniería de software y tecnología en sistemas",
+        <p className="text-gray-700 text-base mb-4">       
+        </p>        
+    </div>
+    </div>
+  </div>
+  <div className="flex justify-center">
+    <div className="rounded-lg shadow-lg bg-white max-w-sm">      
+      <div className="p-6">
+        <h5 className="text-gray-900 text-xl font-medium mb-2">Freelance Developer -DFAM 😁</h5>
+        <p className="text-gray-700 text-base mb-4"> Construcción, análisis y desarrollo de sistemas de información a la medida      
+        </p>        
+    </div>
+    </div>
+  </div>
+  </>
   )
 }

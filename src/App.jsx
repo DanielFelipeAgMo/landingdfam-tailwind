@@ -22,7 +22,7 @@ function App() {
         <EstudiosPage />
       </section>
       <section id="experiencia">
-        <MyCard />
+        <ExperienciaPage />
       </section>
       <section id="portafolio">
         <PortafolioPage />
